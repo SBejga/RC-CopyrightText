@@ -1,0 +1,2 @@
+node_modules
+!dist //using git as npm registry

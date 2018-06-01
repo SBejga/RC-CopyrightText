@@ -1,0 +1,21 @@
+{
+  "name": "@sbejga/rc-copyrighttext",
+  "version": "1.0.0",
+  "description": "Sample React component to render a copyright text.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Sebastian Bejga",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/react": "^16.3.16",
+    "@types/react-dom": "^16.0.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "typescript": "^2.9.1"
+  }
+}
